@@ -22,12 +22,11 @@ sudo /etc/init.d/privoxy restart
 sudo apt-get -y install tor-arm
 
 
-
-
 # misc (lxml, beautifulsoup4, pytorctl)
 
 sudo pip install lxml
 sudo pip install beautifulsoup4
+cd /home/vagrant
 git clone git://github.com/aaronsw/pytorctl.git
-cd pytorctl
+cd /home/vagrant/pytorctl
 sudo python setup.py install
