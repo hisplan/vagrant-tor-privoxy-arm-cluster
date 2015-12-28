@@ -40,3 +40,12 @@ tcp6       0      0 :::49719                :::*                    LISTEN      
 - tcp/8118 : Privoxy
 
 ```
+
+
+## Note
+
+This also installs the following python packages:
+
+- lxml
+- BeautifulSoup4
+- PyTorCtl

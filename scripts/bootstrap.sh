@@ -20,3 +20,14 @@ sudo /etc/init.d/privoxy restart
 # arm
 
 sudo apt-get -y install tor-arm
+
+
+
+
+# misc (lxml, beautifulsoup4, pytorctl)
+
+sudo pip install lxml
+sudo pip install beautifulsoup4
+git clone git://github.com/aaronsw/pytorctl.git
+cd pytorctl
+sudo python setup.py install
