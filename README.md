@@ -1,6 +1,6 @@
 ## Cluster of Vagrant boxes for Tor + Privoxy + Arm
 
-This will spin up a cluster of vagrant boxes with Tor + Privoxy + Arm (max up to 54 nodes).
+This will spin up a cluster of vagrant boxes with Tor + Privoxy + Arm (max up to 9 nodes).
 
 Use this at your own risk.
 
@@ -31,7 +31,7 @@ tcp6       0      0 :::49719                :::*                    LISTEN      
 ## IP & Ports
 
 ```
-172.16.200.201, 172.16.200.202, ..., 172.16.200.254
+172.16.200.201, 172.16.200.202, ..., 172.16.209
 ```
 
 ```
