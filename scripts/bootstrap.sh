@@ -1,5 +1,9 @@
 sudo apt-get -y update
 
+# git
+
+sudo apt-get -y install git
+
 # tor
 
 sudo apt-get -y install tor
