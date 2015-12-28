@@ -1,5 +1,5 @@
 Vagrant.configure(2) do |config|
-	numNodes = 10
+	numNodes = 9
 	r = numNodes..1
 	(r.first).downto(r.last).each do |i|
 		config.vm.define "node-#{i}" do |node|
