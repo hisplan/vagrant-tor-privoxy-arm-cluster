@@ -42,7 +42,12 @@ tcp6       0      0 :::49719                :::*                    LISTEN      
 ```
 
 
-## Note
+## Notes
+
+This also install the following:
+
+- git
+- python-pip
 
 This also installs the following python packages:
 
