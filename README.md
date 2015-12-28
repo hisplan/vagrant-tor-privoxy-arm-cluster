@@ -1,4 +1,4 @@
-## Vagrant box for Tor + Privoxy + Arm
+## Cluster of Vagrant boxes for Tor + Privoxy + Arm
 
 This will spin up a cluster of vagrant boxes with Tor + Privoxy + Arm (max up to 54 nodes).
 
