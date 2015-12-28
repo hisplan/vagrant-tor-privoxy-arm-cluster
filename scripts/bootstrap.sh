@@ -4,6 +4,12 @@ sudo apt-get -y update
 
 sudo apt-get -y install git
 
+
+# pip
+
+sudo apt-get -y install python-pip
+
+
 # tor
 
 sudo apt-get -y install tor
