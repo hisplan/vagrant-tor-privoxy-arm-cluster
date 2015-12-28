@@ -34,8 +34,11 @@ sudo apt-get -y install tor-arm
 
 # misc (lxml, beautifulsoup4, pytorctl)
 
+sudo apt-get install libxml2-dev libxslt-dev python-dev
 sudo pip install lxml
+
 sudo pip install beautifulsoup4
+
 cd /home/vagrant
 git clone git://github.com/aaronsw/pytorctl.git
 cd /home/vagrant/pytorctl
