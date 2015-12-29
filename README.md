@@ -51,6 +51,7 @@ This also install the following:
 
 This also installs the following python packages:
 
-- lxml
-- BeautifulSoup4
-- PyTorCtl
+- [lxml](http://lxml.de/)
+- [BeautifulSoup4](http://www.crummy.com/software/BeautifulSoup/)
+- [PyTorCtl](https://github.com/aaronsw/pytorctl)
+- [requests](http://docs.python-requests.org/en/latest/)

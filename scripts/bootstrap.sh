@@ -32,10 +32,12 @@ sudo /etc/init.d/privoxy restart
 sudo apt-get -y install tor-arm
 
 
-# misc (lxml, beautifulsoup4, pytorctl)
+# misc (lxml, beautifulsoup4, pytorctl, requests)
 
 sudo apt-get -y install libxml2-dev libxslt-dev python-dev
 sudo pip install lxml
+
+sudo pip install requests
 
 sudo pip install beautifulsoup4
 
